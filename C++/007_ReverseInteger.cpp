@@ -9,7 +9,8 @@ public:
         }
         if(ans <= -pow(2, 31) || ans >= pow(2, 31) - 1){
             return 0;
-        }else if(x < 0){
+        }
+        if(x < 0){
             ans = -ans;
         }
         return ans;
